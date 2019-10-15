@@ -13,6 +13,7 @@
 		74AFAFE6235580BD00C939FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AFAFE5235580BD00C939FA /* Assets.xcassets */; };
 		74AFAFE9235580BD00C939FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AFAFE7235580BD00C939FA /* LaunchScreen.storyboard */; };
 		74AFAFF2235580D000C939FA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AFAFF1235580D000C939FA /* MapKit.framework */; };
+		74AFAFF423559F2A00C939FA /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AFAFF323559F2A00C939FA /* CLPlacemark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		74AFAFE8235580BD00C939FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74AFAFEA235580BD00C939FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74AFAFF1235580D000C939FA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		74AFAFF323559F2A00C939FA /* CLPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				74AFAFDE235580BB00C939FA /* AppDelegate.swift */,
 				74AFAFE0235580BB00C939FA /* ViewController.swift */,
+				74AFAFF323559F2A00C939FA /* CLPlacemark.swift */,
 				74AFAFE2235580BB00C939FA /* Main.storyboard */,
 				74AFAFE5235580BD00C939FA /* Assets.xcassets */,
 				74AFAFE7235580BD00C939FA /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74AFAFE1235580BB00C939FA /* ViewController.swift in Sources */,
+				74AFAFF423559F2A00C939FA /* CLPlacemark.swift in Sources */,
 				74AFAFDF235580BB00C939FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
